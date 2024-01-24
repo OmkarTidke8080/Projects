@@ -1,0 +1,136 @@
+
+nav
+{
+    background-color: #333;
+    align-items: left;
+    position: sticky;
+    align-items: left;
+    padding: 5px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    margin: 3px;
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 30px;
+}
+
+nav li:hover
+{
+    background-color:rgb(176, 34, 23) ;
+
+}
+
+.first
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 70px;
+}
+
+
+/* Animation section */
+
+@keyframes MyAnimation {
+    from
+    {
+        background-color: white;
+    }
+    to
+    {
+       background-color: black;
+    }
+}
+
+.first span
+{
+    font-size: 45px;
+}
+
+.first button
+{
+     /* background-color: rgb(242, 245, 245); */
+    padding: 14px 16px;
+    color: white;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer; 
+    animation: MyAnimation 2s;
+    animation-iteration-count: infinite;
+
+   
+}
+.first button:hover
+{
+    color: green;
+}
+
+.btn
+{
+     background-color: rgb(16, 17, 17); 
+    padding: 14px 16px;
+    color: white;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+.flex
+{
+    display: flex;
+}
+
+.grid
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.grid button:hover
+{
+    color: greenyellow;
+}
+
+.item
+{
+    padding: 23px;
+    background: rgb(36, 210, 105);
+    border-radius: 15px;
+    font-size: 22px;
+
+}
+
+.lang
+{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.green
+{
+    background-color: green;
+}
+
+
+
+
