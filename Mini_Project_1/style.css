@@ -1,0 +1,265 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color : white;
+}
+.section-1
+{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.image
+{
+   /* height: 100%;
+   width: 100%; */
+   background: rgba(0, 0, 0, 0.7) url('images/netflix_backgrond.jpg');
+   background-size: cover;
+   background-blend-mode: darken;
+   /* position: absolute; */
+   /* z-index: -1; */
+}
+
+.logo
+{
+  margin-left: 60px;
+  display: flex;
+} 
+
+.btns
+{
+   margin-left: 1000px;
+   margin-top: 30px;
+   /* display: flex;
+   flex-direction: row; */
+}
+
+#lang
+{
+    padding: 6px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+/* .button1
+{
+    background-color: red;
+    margin: 10px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}  */
+
+.button2
+{
+    background-color: red;
+    margin: 10px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+
+.main
+{
+    width: 100%;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.area
+{
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.area h1
+{
+    font-size: 60px;
+    word-spacing: 15px;
+    line-height: 70px;
+}
+
+.area h3 {
+    margin-top: -30px;
+    font-size: 27px;
+    font-weight: normal;
+  }
+  
+/* .search
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} */
+
+.search
+{
+    display: flex;
+    justify-content: center;
+}
+
+.box
+{
+    /* height: 50px; */
+    padding : 3px 20px;
+    width: 300px;
+    border: 2px solid rgb(100, 98, 98);
+    background-color: rgb(48, 46, 46);
+    border-radius: 5px;
+    color : white;
+}
+
+.search button
+{
+    background-color: red;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+
+hr{
+    /* margin : 100px; */
+    margin : 0;
+    height: 6px;
+    background-color: rgb(63, 61, 61);
+    border-color: rgb(63,61,61);
+}
+
+.paras{
+    color: white;
+    padding: 0 71px;
+    width: 600px;
+    /* border: 2px solid white; */
+    /* display: flex; */
+}
+.video{
+    height: 300px;
+    width : 500px;
+    border: 2px solid rgb(100, 98, 98);;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+video{
+    height: 300px;
+    width : 500px;
+}
+
+.section-2{
+    height: 600px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.font-bg{
+    margin:-8px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.font-sm{
+    font-size: 20px;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.qna{
+    height: 1000px;
+    /* border: 2px solid red; */
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qna-para{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.boxes{
+    /* border: 2px solid red; */
+    width : 80%;
+    height: 18px;
+    padding:33px 15px;
+    margin-bottom: 10px;
+    background-color: rgb(63,61,61);
+}
+
+.boxes p {
+    margin : 0;
+    font-size : 23px; 
+
+}
+
+.qna-bottom{
+    margin-top: 40px;
+}
+
+
+.qna-bottom p{
+    font-size:20px;
+}
+
+.container{
+    width : 75%;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container ul{
+    text-decoration: underline;
+    list-style: none;
+    
+}
+
+.container ul li{
+    margin-bottom: 15px;
+}
+
+footer{
+    color : rgb(159 153 153);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer p{
+    margin-left: 102px;
+    font-size : 14px;
+}
+
+footer p span{
+    text-decoration: underline;
+}
+
+#lang-1
+{
+    width : 100px;
+    padding: 6px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    margin-left: 102px;
+}
